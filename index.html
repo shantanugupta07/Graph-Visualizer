@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="controls">
+        <select id="algorithm">
+            <option value="dijkstra">Dijkstra's Algorithm</option>
+            <option value="a-star">A* Algorithm</option>
+            <option value="bfs">Breadth-First Search</option>
+        </select>
+        <button id="generate">Generate Graph</button>
+        <button id="start">Start Visualization</button>
+    </div>
+    <div id="graph-container"></div>
+    <div class="info">
+        <p id="timeComplexity"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
