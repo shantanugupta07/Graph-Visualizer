@@ -25,7 +25,7 @@ This project is a Graph Visualizer that demonstrates different graph traversal a
 ### Steps
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/graph-visualizer.git
+    git clone https://github.com/shantanugupta07/Graph-Visualizer
     ```
 
 2. Navigate to the project directory:
